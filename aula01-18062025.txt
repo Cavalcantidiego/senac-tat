@@ -1,1 +1,69 @@
 Ultilizando o Guithub pela primeira vez...
+
+### ✅ **Resumo dos comandos APT para atualizar o Linux Mint**
+
+#### 🔹 `sudo apt update`
+
+* Atualiza a **lista de pacotes disponíveis** do repositório.
+* **Não instala nada**, só **verifica** se tem versões novas.
+
+> Ex: “Tem versão nova do Firefox? Deixa eu ver.”
+
+---
+
+#### 🔹 `sudo apt upgrade`
+
+* Instala as **atualizações disponíveis** para os pacotes **já instalados**.
+
+> Ex: Atualiza o que já tem, **sem remover ou trocar nada**.
+
+---
+
+#### 🔹 `sudo apt full-upgrade`
+
+* Atualiza tudo igual o `upgrade`, **mas também pode remover ou trocar pacotes** se for necessário.
+
+> Ex: Usa quando o sistema precisar de **mudanças maiores**.
+
+---
+
+#### 🔹 `sudo apt dist-upgrade`
+
+* É igual ao `full-upgrade`, só que é o **nome antigo** desse comando.
+
+> Ainda funciona, mas hoje o nome moderno é `full-upgrade`.
+
+---
+
+#### 🔹 `sudo apt autoremove`
+
+* Remove **pacotes que não são mais usados** (sobraram de instalações antigas).
+
+> Ex: Limpando o lixo que ficou após uma desinstalação.
+
+---
+
+#### 🔹 `sudo apt autoclean`
+
+* Remove os **arquivos .deb antigos** que não servem mais para reinstalar programas antigos.
+
+> Ex: Limpa o cache de pacotes **velhos**.
+
+---
+
+#### 🔹 `sudo apt clean`
+
+* Limpa **todo o cache de pacotes baixados**, liberando espaço no HD.
+
+> Ex: **Limpa geral**.
+
+---
+
+### 👥 Sobre `$` e `#` no terminal:
+
+| Símbolo | Significa                   | Exemplo         |
+| ------- | --------------------------- | --------------- |
+| `$`     | Usuário comum (sem poderes) | `diego@mint:~$` |
+| `#`     | Root (administrador)        | `root@mint:~#`  |
+
+---
